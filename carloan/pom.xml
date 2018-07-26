@@ -86,10 +86,12 @@
             </plugin>
         </plugins>
     </build>
+    
   <distributionManagement>
   <snapshotRepository>
     <id>projet1</id>
     <url>http://ec2-54-198-61-10.compute-1.amazonaws.com:8081/nexus/content/repositories/projet1</url>
   </snapshotRepository>
 </distributionManagement>
+    
 </project>
