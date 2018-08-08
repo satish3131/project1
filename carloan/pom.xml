@@ -71,6 +71,20 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+      <profiles>
+       <profile>
+       <id>sonar</id>
+       <activation>
+       <activeByDefault>true</activeByDefault>
+       </activation>
+       <properties>
+       <!-- Optional URL to server. Default value is http://localhost:9000 -->
+       <sonar.host.url>
+        http://ec2-52-91-252-205.compute-1.amazonaws.com:9000/sonar
+        </sonar.host.url>
+        </properties>
+        </profile>
+        </profiles>
     <build>
         <plugins>
             <plugin>
@@ -88,10 +102,9 @@
     </build>
     
   <distributionManagement>
-  <snapshotRepository>
-    <id>projet1</id>
-    <url>http://ec2-54-198-61-10.compute-1.amazonaws.com:8081/nexus/content/repositories/projet1</url>
-  </snapshotRepository>
-</distributionManagement>
-    
+  <repository>
+    <id>sample</id>
+    <url>http://ec2-52-91-252-205.compute-1.amazonaws.com:8081/nexus/content/repositories/sample</url>
+  </repository>
+</distributionManagement>    
 </project>
