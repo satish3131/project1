@@ -4,7 +4,7 @@
 
     <groupId>com.axis</groupId>
     <artifactId>carloan</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>Spring Boot Jersey Blank Project (from https://github.com/making/spring-boot-jersey-blank)</name>
@@ -102,9 +102,9 @@
     </build>
     
   <distributionManagement>
-  <repository>
-    <id>sample</id>
-    <url>http://ec2-52-91-252-205.compute-1.amazonaws.com:8081/nexus/content/repositories/sample</url>
-  </repository>
+  <snapshotRepository>
+    <id>satish</id>
+    <url>http://ec2-54-234-220-84.compute-1.amazonaws.com:8081/nexus/content/repositories/satish</url>
+  </snapshotRepository>
 </distributionManagement>    
 </project>
