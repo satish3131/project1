@@ -103,8 +103,8 @@
     
   <distributionManagement>
   <snapshotRepository>
-    <id>satish</id>
-    <url>http://ec2-54-234-220-84.compute-1.amazonaws.com:8081/nexus/content/repositories/satish</url>
+    <id>nandu</id>
+    <url>http://ec2-54-234-220-84.compute-1.amazonaws.com:8081/nexus/content/repositories/nandu</url>
   </snapshotRepository>
-</distributionManagement>    
+</distributionManagement>
 </project>
